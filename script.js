@@ -8,6 +8,12 @@ function consumoMensualKilovatios(){
     return consumo;
 }
 
+// Función declarativa que retorne la tarifa base por kilovatio (ej: 620 pesos/kWh)
+function tarifaBaseKilovatio(){
+    let tarifa = 620;
+    return tarifa;
+}
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
