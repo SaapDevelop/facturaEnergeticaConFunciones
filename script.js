@@ -14,6 +14,12 @@ function tarifaBaseKilovatio(){
     return tarifa;
 }
 
+// Función de expresión que retorne el cargo fijo por servicio (ej: 3500 pesos)
+let cargoFijoPorServicio = function(){
+    let cargoFijo = 3500;
+    return cargoFijo;
+}
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
