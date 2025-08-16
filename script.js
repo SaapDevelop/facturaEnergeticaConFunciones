@@ -41,6 +41,18 @@ let valorTotalPagar = () => {
     return subTotal() + valorSubtotalIVA() + cargoFijoPorServicio();
 }
 
+// Función final que imprima todos los resultados
+function facturaFinal(){
+    console.log("FACTURA DE ENERGÍA MENSUAL");
+    console.log("Consumo mensual: " + consumoMensualKilovatios() + " kWh");
+    console.log("Tarifa base: " + tarifaBaseKilovatio() + " pesos/kWh");
+    console.log("Subtotal: " + subTotal() + " pesos");
+    console.log("IVA ("+ valorIva() +"%): " + valorSubtotalIVA() + " pesos");
+    console.log("Cargo fijo: " + cargoFijoPorServicio() + " pesos");
+    console.log("TOTAL A PAGAR: " + valorTotalPagar() + " pesos");
+}
+
+facturaFinal();
 
 /* CONDISIONES
 
