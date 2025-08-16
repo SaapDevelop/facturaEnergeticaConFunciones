@@ -31,6 +31,11 @@ let subTotal = () => {
     return consumoMensualKilovatios() * tarifaBaseKilovatio();
 }
 
+// Función flecha que retorne el valor del IVA aplicado sobre el subtotal
+let valorSubtotalIVA = () => {
+    return subTotal() * (valorIva() / 100);
+}
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
