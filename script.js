@@ -26,6 +26,11 @@ let valorIva = function(){
     return iva;
 }
 
+// Función flecha que retorne el subtotal (consumo * tarifa)
+let subTotal = () => {
+    return consumoMensualKilovatios() * tarifaBaseKilovatio();
+}
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
