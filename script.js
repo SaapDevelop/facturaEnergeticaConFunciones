@@ -20,6 +20,12 @@ let cargoFijoPorServicio = function(){
     return cargoFijo;
 }
 
+// Función de expresión que retorne el valor del IVA como porcentaje fijo (ej: 19%)
+let valorIva = function(){
+    let iva = 19;
+    return iva;
+}
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
