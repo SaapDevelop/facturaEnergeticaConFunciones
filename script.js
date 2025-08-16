@@ -36,6 +36,12 @@ let valorSubtotalIVA = () => {
     return subTotal() * (valorIva() / 100);
 }
 
+// Función flecha que retorne el total a pagar (subtotal + IVA + cargo fijo)
+let valorTotalPagar = () => {
+    return subTotal() + valorSubtotalIVA() + cargoFijoPorServicio();
+}
+
+
 /* CONDISIONES
 
 -Todas las funciones deben usar return.
