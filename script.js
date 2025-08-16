@@ -2,6 +2,11 @@
 
 //REQUERIMIENTOS
 
+// Función declarativa que retorne el consumo mensual en kilovatios (ej: 410 kWh)
+function consumoMensualKilovatios(){
+    let consumo = 410;
+    return consumo;
+}
 
 /* CONDISIONES
 
